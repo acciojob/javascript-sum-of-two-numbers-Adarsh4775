@@ -9,11 +9,11 @@ function twoSum(input1,input2){
 	if(!isNaN(n1) && !isNaN(n2)) 
 	{
 		let totalSum = n1 + n2 ;
-		let thenSum = " The sum of " + input1 + " and " + input2 + " is " + totalSum + " . ";
+		let thenSum = " The sum of " + input1 + " and " + input2 + " is " + totalSum + ".";
 		return thenSum;
 	} 
 	else 
-	{
+	{  
 		return "Invalid input. Please enter a valid number." ;
 	}
 }
